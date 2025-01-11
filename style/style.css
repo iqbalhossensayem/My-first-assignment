@@ -1,8 +1,15 @@
+
+
+
 .work-sans-normal {
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    /* max-width:  1680px; 
+    margin: 0 auto; */
 }
+
+
 
 /* nav style */
 
@@ -37,12 +44,12 @@ nav {
     align-items: center;
     justify-content: space-between;
     border-radius: 8px;
-    margin-top: 33px;
+     margin-top: 33px;
     margin-left: 160px;
     margin-right: 160px;
     padding-left: 60px;
     padding-right: 60px;
-    gap: 64px; 
+    gap: 64px;  
 }
 
 .banner-title {
@@ -110,6 +117,12 @@ nav {
 }
 
 .vision-btn{
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
 
 }
 
@@ -119,4 +132,36 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 24px;
+    
+}
+.light-purple{
+    background-color:rgba(84, 144, 245, 0.2) ;
+    border-radius: 16px;
+    padding: 32px;
+}
+.light-green{
+    background-color:#C6E4D6;
+    border-radius: 16px;
+    padding: 32px;
+}
+.light-yellow{
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px;
+}
+.vision-3{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px ;
+    /* padding: 25px 1192px 167px 24px; */
+    background-color: #FFFFFF;
+    border: 2px solid rgba(142, 142, 142, 0.6);
+    border-radius: 16px;
+    padding: 32px;
+    margin: 32px 0px 80px 0px;
+    
+}
+.quote{
+color: rgba(14, 14, 14, 0.8);
 }

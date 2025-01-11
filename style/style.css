@@ -1,28 +1,27 @@
-
-
 .work-sans-normal {
-  font-family: "Work Sans", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* nav style */
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:0;
+    margin: 0;
     padding: 0 160px;
 }
 
-.nav-title{
-    font-weight: 700 ;
+.nav-title {
+    font-weight: 700;
     font-size: 32px;
 }
-.btn-1{
+
+.btn-1 {
     font-weight: 600;
-    font-size: 18px ;
+    font-size: 18px;
     color: #006A50;
     padding: 12px 28px;
     border: #006A50 solid;
@@ -32,24 +31,53 @@ nav{
 
 
 /* section style */
-.banner-section{
+.banner-section {
     background-color: #C6E4D6;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 8px;
-    margin-top:33px ;
+    margin-top: 33px;
     margin-left: 160px;
     margin-right: 160px;
     padding-left: 60px;
     padding-right: 60px;
+    gap: 64px; 
 }
-.title-sec{
-    padding-top: 117px ;
+
+.banner-title {
+    font-weight: 500;
+    font-size: 24px;
+}
+.banner-head{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.title-sec {
+    padding-top: 117px;
     padding-bottom: 117px;
 }
-.title-img{
+
+.title-img {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
 /* shared styles */
+.primary-btn {
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.color-primary {
+
+    color: rgba(14, 14, 14, 0.5);
+
+}

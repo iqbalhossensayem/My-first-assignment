@@ -85,4 +85,38 @@ nav {
 }
 .primary{
     margin: 80px 160px;
+    align-items: center;
+}
+.same-heading{
+    font-weight: 700;
+    font-size: 40px;
+}
+.same-para{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.card{
+    width: 62px;
+}
+.vision-heading{
+    font-weight: 700;
+    font-size: 20px;
+}
+.vision-paragrapg{
+    font-weight:400 ;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.vision-btn{
+
+}
+
+
+/* main design */
+.vision-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

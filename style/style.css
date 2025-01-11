@@ -52,6 +52,7 @@ nav {
 .banner-head{
     font-weight: 800;
     font-size: 45px;
+    max-width: 622px;
 }
 
 .title-sec {
@@ -59,11 +60,12 @@ nav {
     padding-bottom: 117px;
 }
 
-.title-img {
+
+.title-img{
+    width: 475px ;
     padding-top: 80px;
     padding-bottom: 80px;
 }
-
 /* shared styles */
 .primary-btn {
     font-weight: 700;
@@ -80,4 +82,7 @@ nav {
 
     color: rgba(14, 14, 14, 0.5);
 
+}
+.primary{
+    margin: 80px 160px;
 }
